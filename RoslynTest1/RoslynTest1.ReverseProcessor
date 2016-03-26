@@ -1,0 +1,18 @@
+﻿ using System;
+
+    namespace RoslynTest1
+    {
+        public class ReverseProcessor : IInputProcessor
+        {
+            public ReverseProcessor(){
+                 Console.WriteLine(""This is RoslnyInputProcessor"");
+            }
+            public void Process(string input)
+            {
+                char[] charArray = input.ToCharArray();
+                Array.Reverse( charArray );
+                var s = new string( charArray );
+                Console.WriteLine(s);
+            }
+        }
+    }
