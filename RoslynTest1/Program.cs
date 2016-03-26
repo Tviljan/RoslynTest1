@@ -39,6 +39,7 @@ namespace RoslynTest1
 
         public void Run()
         {
+            Console.Write("To load assembly from file use assembly.class for file name and write #Load <file>");
             while (true)
             {
                 var input = Console.ReadLine();

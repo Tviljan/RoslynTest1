@@ -5,7 +5,7 @@
         public class ReverseProcessor : IInputProcessor
         {
             public ReverseProcessor(){
-                 Console.WriteLine(""This is RoslnyInputProcessor"");
+                 Console.WriteLine("This is ReverseProcessor");
             }
             public void Process(string input)
             {
